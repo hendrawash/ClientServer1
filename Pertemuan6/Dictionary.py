@@ -12,13 +12,13 @@ for day in days:
     print(days[day])
 print("-----------------------\n")
 
-#Menambahkan data
+# Menambahkan data
 days["sabtu"] = "SABTU"
 for day in days:
     print(days[day])
 print("-----------------------\n")
 
-#Menghapus data
+# Menghapus data
 days.pop("jumat")
 for day in days:
     print(days[day])
