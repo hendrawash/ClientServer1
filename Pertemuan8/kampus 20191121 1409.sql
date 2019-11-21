@@ -21,9 +21,7 @@ CREATE TABLE mahasiswa (
   Alamat text DEFAULT NULL,
   PRIMARY KEY (Id)
 )
-ENGINE = INNODB,
-CHARACTER SET utf8mb4,
-COLLATE utf8mb4_0900_ai_ci;
+ENGINE = INNODB;
 
 -- 
 -- Dumping data for table mahasiswa
