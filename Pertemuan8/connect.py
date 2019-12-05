@@ -1,6 +1,7 @@
 import MySQLdb
 
-db = MySQLdb.connect(host="localhost", user="root", passwd="hendrawan", db="kampus")
+db = MySQLdb.connect(host="localhost", user="root",
+                     passwd="", db="kampus")
 c = db.cursor()
 c.execute("select version()")
 rows = c.fetchall()
