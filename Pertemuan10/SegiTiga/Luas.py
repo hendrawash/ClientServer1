@@ -1,4 +1,3 @@
-
 class Luas:
     def __init__(self, alas, tinggi):
         self.__alas = alas
